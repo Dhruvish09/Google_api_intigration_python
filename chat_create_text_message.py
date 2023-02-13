@@ -1,6 +1,6 @@
 from httplib2 import Http
 from oauth2client.service_account import ServiceAccountCredentials
-from apiclient.discovery import build
+from googleapiclient.discovery import build
 
 # Specify required scopes.
 SCOPES = ['https://www.googleapis.com/auth/chat.spaces']
